@@ -1,0 +1,105 @@
+*{padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+header{width: 100%;
+    height: 10vh;
+background-color: grey;
+display: flex;
+}
+
+
+a{font-size: 3vh;
+     text-decoration: none;
+    color: black;
+}
+#marca{width:10%;
+    height: 10vh;
+
+}
+.logo{width: 10vh;
+
+}
+#paginas{width: 90%;
+    height: 10vh;
+display: flex;
+align-items: center;
+justify-content: left;
+gap: 25vh;
+
+}
+body{background-color: white;
+width: 100%;
+height: 98vh;
+background-color: white;
+}
+
+#logona{width:30vh;
+
+}
+main {
+    width: 100%;
+    height: 80vh;
+    background-color: white;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+h1 {
+    font-size: 5vh;
+    color: #666666;
+    font-weight: normal;
+    margin: 5px;
+  padding-bottom: 6vh;
+}
+h2{
+     font-size: 2vh;
+
+}
+input {
+    display: block;
+    width: 30vh;
+    margin: 200px auto;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 2vh;
+    outline: none;
+    padding-bottom: 1vh;
+}
+#entrar{
+    font-size: 2vh;
+    
+}
+
+#entrar:hover{
+color: red;
+
+}
+
+
+button {
+
+    margin-top: 158px;
+    width: 10vh;
+    height: 5vh;
+    border: none;
+    border-radius: 100px;
+    background-color: #ddd;
+    font-size: 1.5vh;
+    font-weight: 600;
+}
+
+
+button:hover{color: red;
+cursor:pointer;
+}
+
+
+
+
+
+footer{width: 100%;
+    height: 10vh;
+background-color: grey;
+}
