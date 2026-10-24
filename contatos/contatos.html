@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Entre em contato com a Decorize.">
+    <title>Contato - Decorize</title>
+    <link rel="stylesheet" href="contatos.css">
+</head>
+
+<body>
+    <header class="header">
+        <a class="logo" href="../index.html" aria-label="Ir para a página inicial"></a>
+
+        <button
+            class="menu-toggle"
+            type="button"
+            aria-label="Abrir menu"
+            aria-expanded="false"
+            aria-controls="menu-principal"
+        >
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav class="menu" id="menu-principal" aria-label="Navegação principal">
+            <a href="../index.html">INÍCIO</a>
+            <a href="../sobre-nos/sobre-nos.html">SOBRE-NÓS</a>
+            <a href="../projetos/projetos.html">PROJETOS</a>
+            <a class="ativo" href="contatos.html" aria-current="page">CONTATO</a>
+            <a href="../login/login.html">CONTA</a>
+        </nav>
+    </header>
+
+    <main class="contato">
+        <section class="contato-card" aria-labelledby="titulo-contato">
+            <div class="apresentacao">
+                <p class="subtitulo">FALE COM A GENTE</p>
+                <h1 id="titulo-contato">Como podemos ajudar?</h1>
+                <p class="descricao">
+                    Escreva sua mensagem e entraremos em contato assim que possível.
+                </p>
+
+                <div class="informacoes">
+                    <p>
+                        <strong>E-mail</strong>
+                        <a href="mailto:loremipsun@gmail.com">loremipsun@gmail.com</a>
+                    </p>
+
+                    <p>
+                        <strong>Telefone</strong>
+                        <a href="tel:+5599999999999">(99) 99999-9999</a>
+                    </p>
+                </div>
+            </div>
+
+            <form class="formulario" id="formulario-contato">
+                <label for="mensagem">Sua mensagem</label>
+                <textarea
+                    id="mensagem"
+                    name="mensagem"
+                    rows="8"
+                    maxlength="1000"
+                    placeholder="Digite aqui sua dúvida, sugestão ou solicitação..."
+                    aria-describedby="ajuda-mensagem contador-mensagem"
+                    required
+                ></textarea>
+
+                <div class="apoio-campo">
+                    <span id="ajuda-mensagem">Não deixe este campo em branco.</span>
+                    <span id="contador-mensagem" aria-live="polite">0/1000</span>
+                </div>
+
+                <button type="submit">ENVIAR MENSAGEM</button>
+
+                <p class="aviso-envio" id="aviso-envio" role="status" aria-live="polite">
+                    Ao enviar, seu aplicativo de e-mail será aberto com a mensagem preenchida.
+                </p>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer"></footer>
+
+    <script src="contatos.js"></script>
+</body>
+
+</html>
